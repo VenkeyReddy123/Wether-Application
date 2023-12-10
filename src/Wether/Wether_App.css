@@ -1,0 +1,50 @@
+#container{
+    width:500px;
+    height:90vh;
+    margin-top:50px;
+    margin-left:400px;
+    background-color: rgb(39, 4, 71);
+}
+.search-icon{
+     display: flex;
+     justify-content:center;
+
+}
+.search-icon input{
+    margin-top:40px;
+    font-size:25px;
+    width:250px;
+    border-radius:50px;
+}
+img{
+    margin-top:45px;
+    margin-left:20px;
+    font-size:25px;
+}
+.Wether-image{
+    display: flex;
+    justify-content: center;
+    
+}
+.Temp,.Loc{
+    font-size:35px;
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+    color:wheat;
+}
+.DataAdd{
+    display: flex;
+    justify-content: space-between;
+}
+.Humdity{
+    display: flex;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    margin-top:40px;
+    margin-left:20px;
+    color: white;
+    margin-right:30px;
+}
